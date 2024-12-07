@@ -1,0 +1,21 @@
+defaults:
+  - model: base
+  - train: train
+  - sample: A100_40g
+  - data: data
+  - inference: inference
+  - _self_
+
+train_spec_header_path: /home/q359zhan/olinked/data/igg/glyco-isotope-hopefully-last-header.csv
+test_spec_header_path: /home/q359zhan/olinked/data/igg/glyco-isotope-hopefully-last-header.csv
+train_dataset_dir: /home/q359zhan/olinked/data/igg/
+test_dataset_dir: /home/q359zhan/olinked/data/igg/
+out_put_file:  GlycopepECHO-raw-output.csv
+model_path: save/pglyco-ethcd-new.pt
+
+serialized_model_path: .
+
+wandb:
+  entity: graphnovo
+  project: Graphnovo
+  name: pglyco3
