@@ -2,7 +2,9 @@
 
 ## Dependency
 We recommend using conda to manage all dependency. After install conda
+
 > conda install -n GlycopepECHO requirements.yaml
+
 > python setup.py build_ext --inplace
 
 ## De novo sequencing
