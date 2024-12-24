@@ -8,9 +8,9 @@ We recommend using conda to manage all dependency. After install conda
 > python setup.py build_ext --inplace
 
 ## De novo sequencing
-bash inference.sh 20 /home/olinked/data/test_igg igg_test.csv scehcd KR 3 0124 /home/olinked/data/test_igg/protein-IgG.fasta
+> bash inference.sh 20 /home/olinked/data/test_igg igg_test.csv scehcd KR 3 0124 /home/olinked/data/test_igg/protein-IgG.fasta
 
-
+Example files can be downloaded from https://drive.google.com/drive/folders/1DQ5npo7t-4NYq0x51Ru1VabCcr5NjOCA?usp=sharing
 ## Training
 * Data preprocessing
   
